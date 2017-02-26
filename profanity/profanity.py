@@ -1,7 +1,7 @@
 import urllib
 
 def read_text():
-    quotes = open("F:\udacity\movie_quotes.txt")
+    quotes = open("movie_quotes.txt")
     contents_of_file = quotes.read()
     print (contents_of_file)
     quotes.close()
